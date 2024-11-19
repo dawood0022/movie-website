@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* logo fonts */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+    list-style: none;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: poppins;
+    background-color: #080808;
+}
+
+.logo {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-size: 38px;
+    font-style: normal;
+    color: #db0428;
+    cursor: default;
+  }
+  .nav{
+    height: 85px;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+    background-color: #fcf7f7;
+    /* position: fixed; */
+  }
+  .link{
+    display: flex;
+    
+
+li{
+    font-size: large;
+    color: #080808;
+
+}
+   
+    
+  }
+  a{
+    text-decoration: none;
+    padding: 0px 30px 0 30px;
+  }
+
+  .search{
+    height: 35px;
+    width: 220px;
+    border-radius:  15px;
+    border: 2px solid #080808; 
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    
+  }
+
+  input{
+    background-color: #3d3d3d;
+    height: 100%;
+    width: 100%;
+    font-style: italic;
+    /* border-radius:15px; */
+    /* border: 2px solid white;  */
+    border: none;
+    color: #080808;
+    outline: none;
+    background-color: transparent;
+    
+
+  }
+  .search-icon{
+    color: gray;
+    font-size: 10px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+
+  }
+
+  .search::placeholder{
+    color: gray;
+    font-style: italic;
+    
+    
+    
+  }
+
+  /* main body  */
+
+  .main-body{
+    padding: 20px 30px 20px 30px;
+    
+
+  }
+
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 40px;
+    
+
+    
+
+  }
+
+  /* .slider-text{
+    
+
+  } */
+
+  .m1{
+    height: 480px;
+    width: 300px;
+    
+    border: #fcf7f7 2px solid;
+    
+
+    
+  }
+  .m1 img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover;
+    object-position: center; */
+  }
+
+
+
+
+
+ /* carousel silider  */
+
+ 
+.owl-carousel .movie-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    border: #fcf7f7 2px solid;
+  }
+
+.owl-carousel .movie-slide {
+    max-width: 100%;
+    /* height: auto; */
+    /* height: 100%; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  }
+
+  .owl-carousel{
+    padding: 30px 90px 30px 90px;
+    border-bottom: #fcf7f7 2px solid;
+  }
+
+  .movie-slide{
+    height: 500px;
+    width: 300px;
+  }
+
+  .movie-slide img{
+    height: 100%;
+    width: 100%;
+
+  }
+
+
+  /* text */
+  h2{
+    padding: 2px 4px 0px 4px;
+    /* display: inline; */
+    width: 45px;
+    margin: 15px;
+    display: flex;
+    color: #db0428;
+    background-color: gold;
+  }
+
+  .date{
+    /* font-size: 1.4rem; */
+    font: 1rem "Rubik Mono One";
+    margin: 300px 0px 0px 30px;
+    color: #fcf7f7;
+    text-decoration:underline 3px;
+    text-decoration-color:#db0428;
+
+  }
+
+  .movie-name{
+    margin: 5px 8px 0px 30px;
+    font: 1.4em sans-serif;
+    color: #fcf7f7;
+    text-decoration:underline 3px;
+    text-decoration-color:#db0428;
+    letter-spacing: 1px;
+
+  }
+
+
+  
+
+
+
+
+  /* footer  */
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    color: #fcf7f7;
+    background-color: #3d3d3d;
+  }
+
+
+
+
+
+  /* resposive */
+
+  @media (max-width: 920px) {
+    #ul-link{
+      display: none;
+    }
+
+    /* .owl-carousel{
+      display: none; */
+    
+    #carousel{
+      display: none;
+    }
+    
+  }
+
+  @media (max-width: 520px) {
+    #search{
+      display: none;
+    }
+    #s-icon{display: none;}
+
+    #logo{
+      text-align: center;
+    }
+    
+  }
+
+
+
+
+  ::selection {
+    background-color: #db0428; /* Yellow background */
+    color: #fcf7f7;
+  }
